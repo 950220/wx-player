@@ -1,0 +1,23 @@
+.index {
+  font-size: 0
+}
+
+#livePlayer {
+  height: 100vh;
+  width: 100vw;
+}
+.player-cover {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  position: relative;
+}
+.cover-header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  padding-left: 20rpx;
+  width: 100%;
+  font-size: 28rpx;
+  color: #ffffff;
+}

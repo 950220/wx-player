@@ -1,0 +1,5 @@
+<view class="index">
+  <button class="login-btn" openType="getUserInfo" bindgetuserinfo="onGotUserInfo">{{btnText}}</button>
+  <button>订阅直播</button>
+  <button bindtap="goToIndex" type="primary">进入直播</button>
+</view>

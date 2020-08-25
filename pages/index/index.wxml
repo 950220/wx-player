@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="index">
+  <live-player
+    src=""
+    mode="live"
+    autoplay
+    id="livePlayer"
+    objectFit="fillCrop"
+    orientation="vertical">
+    <cover-view class="player-cover">
+      <cover-view class="cover-header" style="{{'top: ' + headerOffset + ';height: ' + height + ';line-height: ' + height + ';'}}">
+        <cover-view bindtap="goBack">返回</cover-view>
+      </cover-view>
+    </cover-view>
+  </live-player>
+</view>
